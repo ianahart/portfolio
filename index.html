@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Web Developer Ian Hart based in New Hampshire"
+    />
+    <meta
+      name="keywords"
+      content="websites, web development, html, css, javascript, nodejs, new hampshire"
+    />
+    <script
+      src="https://kit.fontawesome.com/20d949d22b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media_queries.css" />
+    <title>Ian Hart | Web Developer</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1 class="main-heading">Ian Hart</h1>
+        <p class="sub-heading">Web Developer</p>
+      </div>
+      <div class="nav-container">
+        <nav id="navbar">
+          <div class="hamburger-menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="intro">
+      <div class="intro-content">
+        <h2>Hi there. I'm Ian,</h2>
+        <p>
+          A Self-Taught
+          <span
+            class="txt-type"
+            data-wait="3000"
+            data-words='["Front-end Developer", "Back-end Developer"]'
+          ></span>
+        </p>
+        <a href="#about" class="about-button">About Me</a>
+      </div>
+    </section>
+    <main>
+      <section id="about">
+        <div class="about-banner banner">
+          <h2 class="text-center mb-2">About Me</h2>
+          <div class="banner-line banner-line-1"></div>
+          <div class="banner-line banner-line-2"></div>
+          <div class="banner-line banner-line-3"></div>
+        </div>
+        <div class="content-wrapper">
+          <div class="about-paragraph-container">
+            <div class="text-center">
+              <img class="about-image" src="img/ian-0.jpg" />
+            </div>
+            <p>
+              I'm a Web Developer from Meredith, New Hampshire. Before I got
+              into creating websites and applications, I was a professional
+              snowboarder. I started competing around the East Coast of the US
+              and eventually started to compete in international competitions as
+              well as starring in snowboard films. Computers have always been a
+              passion of mine which led me to becoming a web developer.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="skills-banner banner">
+          <h2 class="text-center mb-2">Tech Stack</h2>
+          <div class="banner-line banner-line-1"></div>
+          <div class="banner-line banner-line-2"></div>
+          <div class="banner-line banner-line-3"></div>
+        </div>
+        <div class="content-wrapper">
+          <div class="text-center">
+            <ul class="tech-list hide-slide-in">
+              <li class="tech-list-title">Frontend Development</li>
+              <ul class="frontend-tech-list">
+                <li>Adobe Photoshop</li>
+                <li>Adobe XD</li>
+                <li>HTML</li>
+                <li>CSS3</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>React</li>
+              </ul>
+              <li class="tech-list-title">Backend Development</li>
+              <ul class="backend-tech-list">
+                <li>Node.js</li>
+                <li>Express js</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>Templating Engines</li>
+                <li>NPM</li>
+                <li>Git</li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects-banner banner">
+          <h2 class="text-center mb-2">Projects</h2>
+          <div class="banner-line banner-line-1"></div>
+          <div class="banner-line banner-line-2"></div>
+          <div class="banner-line banner-line-3"></div>
+        </div>
+        <div class="content-wrapper">
+          <div class="projects-container">
+            <div class="project">
+              <div class="image-container">
+                <img src="img/projects/docspotter.png" alt="docspotter" />
+                <div class="project-overlay after hide">
+                  <h3 class="text-center">DocSpotter</h3>
+                  <p>
+                    DocSpotter is an application that allows you to search for
+                    doctors in a given area. It also has Google Oauth
+                    authentication.
+                  </p>
+                  <div class="text-center project-links">
+                    <a
+                      href="https://github.com/ianahart/docspotter"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a href="https://docspotter.herokuapp.com/" target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="image-container">
+                <img src="img/projects/instaweather.png" alt="weather-app" />
+                <div class="project-overlay after hide">
+                  <h3 class="text-center">Instaweather</h3>
+                  <p>
+                    An app where you can fetch the weather for a given location.
+                  </p>
+                  <div class="text-center project-links">
+                    <a
+                      href="https://github.com/ianahart/instaweather"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      href="https://ianahart.github.io/instaweather/"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="image-container">
+                <img src="img/projects/tixfinder.png" alt="tixfinder" />
+                <div class="project-overlay after hide">
+                  <h3 class="text-center">Tix Find</h3>
+                  <p>
+                    This app lets you search for events in a certain area. It
+                    also fetches entertainment news from an API
+                  </p>
+                  <div class="text-center project-links">
+                    <a
+                      href="https://github.com/ianahart/Ticket-finder"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      href="https://hart-ticket-finder.herokuapp.com/"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="image-container">
+                <img src="img/projects/quiknotes.png" alt="quiknotes" />
+                <div class="project-overlay after hide">
+                  <h3 class="text-center">QuikNotes</h3>
+                  <p>
+                    This app lets you search for events in a certain area. It
+                    also fetches entertainment news from an API
+                  </p>
+                  <div class="text-center project-links">
+                    <a
+                      href="https://github.com/ianahart/quiknotes"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      href="https://hart-quiknotes.herokuapp.com/"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="image-container">
+                <img src="img/projects/skitrips.png" alt="skitrips" />
+                <div class="project-overlay after hide">
+                  <h3 class="text-center">Ski Trips</h3>
+                  <p>
+                    Skitrips is a backend RESTful API with user authentication
+                    and CRUD functionality for managing ski resorts
+                  </p>
+                  <div class="text-center project-links">
+                    <a
+                      href="https://github.com/ianahart/skitripsAPI"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a href="https://skitrips.herokuapp.com/" target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="image-container">
+                <img
+                  src="img/projects/react-o-gallery.png"
+                  alt="react-image-gallery"
+                />
+                <div class="project-overlay after hide">
+                  <h3 class="text-center">React-O-Gallery</h3>
+                  <p>
+                    React-o-gallery is built with React and uses the Unsplash
+                    API to fetch images based on user search or links.
+                  </p>
+                  <div class="text-center project-links">
+                    <a
+                      href="https://github.com/ianahart/react-o-gallery"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      href="https://ianahart.github.io/react-o-gallery/"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="image-container">
+                <img src="img/projects/meme-maker.png" alt="meme-maker" />
+                <div class="project-overlay after hide">
+                  <h3 class="text-center">Meme Maker</h3>
+                  <p>
+                    This app fetches images from an API and allows you to
+                    customize the meme.
+                  </p>
+                  <div class="text-center project-links">
+                    <a
+                      href="https://github.com/ianahart/meme-generator"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      href="https://ianahart.github.io/meme-generator/"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project">
+              <div class="image-container">
+                <img src="img/projects/calculator.png" alt="calculator" />
+                <div class="project-overlay after hide">
+                  <h3 class="text-center">Calculator</h3>
+                  <p>
+                    Your standard calculator that allows you to add, subtract,
+                    multiply, and divide. Built with React.
+                  </p>
+                  <div class="text-center project-links">
+                    <a
+                      href="https://github.com/ianahart/React-Calculator"
+                      target="_blank"
+                      >View code</a
+                    >
+                    <a
+                      href="https://ianahart.github.io/React-Calculator/"
+                      target="_blank"
+                      >View site</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="content-wrapper">
+          <div class="contact-container">
+            <div>
+              <i class="mail-icon fas fa-envelope"></i>
+              <a href="mailto:ianhart7790@gmail.com">ianhart7790@gmail.com</a>
+            </div>
+            <div>
+              <i class="fas fa-phone"></i>
+              <a href="tel:6037071800">(603)-707-1800</a>
+            </div>
+            <div>
+              <p class="text-center">
+                If you're hiring for a Web Developer role, or have any
+                questions, please don't hesitate to reach out!
+              </p>
+            </div>
+            <div>
+              <a href="https://www.facebook.com/ian.hart.39"
+                ><i class="fab fa-facebook fa-3x"></i
+              ></a>
+              <a href="https://github.com/ianahart"
+                ><i class="fab fa-github fa-3x"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/ian-hart-314141127/"
+                ><i class="fab fa-linkedin-in fa-3x"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="text-center">Copyright &copy; 2020, Ian Hart</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
